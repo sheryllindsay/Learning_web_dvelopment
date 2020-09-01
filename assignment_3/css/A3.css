@@ -13,8 +13,11 @@ body {
 	position: relative;
 	padding-bottom:60px;
 }
-.navbar-brand{
-	margin:15px;
+.navbar-brand {
+	margin:0px;
+	margin-left:10px;
+	padding:0px;
+
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;

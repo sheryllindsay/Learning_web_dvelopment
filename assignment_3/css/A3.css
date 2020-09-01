@@ -9,22 +9,40 @@ body {
 #header-nav{
 	background-color:#add8e6; 
 }
-.navbar-title{
+.navbar-header{
+	position: relative;
+	padding-bottom:60px;
+}
+.navbar-brand{
 	margin:15px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
-  margin-top: -50px;
+	position: absolute;
+	bottom:0px;
+	right:0px;
 }
 .boxing{
 	background-color:#add8e6; 
-	margin:10px;
+	margin:5px;
 	padding:5px;
-	height:500px;
+	height:1000px;
 	overflow: auto;
 }
-h3, li{
+h3{
 	text-align: center;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+@media(max-width:452px){
+	.navbar-header{
+	padding-bottom:120px;
+	}
+	.navbar-brand p{
+		width:80%;
+	}
+
 }
